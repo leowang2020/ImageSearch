@@ -1,0 +1,8 @@
+.idea
+*.pem
+node_modules
+*.log
+uploads/*
+!uploads/.keep
+.idea/*
+*.css.map

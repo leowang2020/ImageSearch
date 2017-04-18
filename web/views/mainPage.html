@@ -1,0 +1,27 @@
+<div class="container-fluid page-wrap">
+    <div>
+        <img src="assets/images/search_picture.png" style="width: 100%; max-height:350px;">
+    </div>
+    <div class="row">
+        <div class="col-xs-11 col-sm-4 col-sm-offset-1 col-md-2 col-md-offset-3">
+            <form id="uploadImageForm">
+                <div style="padding:2px;border-radius: 4px;width: 150px;">
+                    <img id="bizLicImg" ng-click="bindFile($event)" style="margin-top: 20px;height: 200px; width: 200px;"
+                         src="assets/images/add_icon.png">
+                    <input id="imageUploadBtn" ng-model="image" type="file", name="sampleFile"
+                           ng-file-select="myFile" class="form-control" style="display: none;" required>
+                </div>
+            </form>
+        </div>
+        <form>
+        <div class="col-xs-11  col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <label style="margin-top: 20px;">关键词：</label></br>
+
+            <input style="width: 300px" id="searchKeyword" type="text" class="form-control" ng-model="keyword" placeholder="沙发" ></br>
+            </br>
+            <a href="#/search"><button type="submit" class="btn btn-info btn-sm" ng-click="search()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;搜索&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+            </a>
+        </div>
+        </form>
+    </div>
+</div>

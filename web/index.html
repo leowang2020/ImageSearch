@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>搜图demo</title>
+    <link rel="icon"
+          type="image/png"
+          href="./assets/images/mission_icon.png">
+
+    <link href="assets/js/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+</head>
+<body>
+<!--nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li>
+                <span>首页</span>
+            </li>
+        </ul>
+    </div>
+</nav-->
+<header class="jumbotron">
+    <div class="row row-header">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+            <img src="assets/images/mission_public.png" align="left">
+        </div>
+        <div class="container-fluid">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                <p style="color:#000000; font-size: 40px; font-weight: bolder; margin-right: 222px;"
+                   align="center">以图搜图演示</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<ng-view></ng-view>
+
+<footer class="row-footer navbar-fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p align=center >美森博多利科技有限公司 Copyrigths 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.cookie.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.form.js"></script>
+
+<script src="module/demo_module.js"></script>
+<script src="service/route_service.js"></script>
+<script src="service/http_service.js"></script>
+<script src="service/directive_service.js"></script>
+<script src="service/factory_service.js"></script>
+<script src="service/filter_service.js"></script>
+
+
+<script src="controller/index_controllers.js"></script>
+<script src="controller/search_controller.js"></script>
+<script src="controller/picDetail_controller.js"></script>
+
+
+</body>
+</html>

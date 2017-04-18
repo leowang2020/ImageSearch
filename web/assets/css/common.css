@@ -1,0 +1,74 @@
+.navbar-inverse {
+    background: #08504a;
+    color: #ffffff;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px;
+    background: #eee;
+}
+
+.row-footer {
+    margin: 0px auto;
+    padding: 20px 0px;
+    background-color: #eee;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background: #eee;
+    color: floralwhite;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: #615f5f;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
